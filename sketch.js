@@ -10,7 +10,6 @@ function preload(){
 
 function setup(){
 document.getElementById("mc").style.display="none"
-document.body.style.zoom="100%"
 
 }
 function draw(){
