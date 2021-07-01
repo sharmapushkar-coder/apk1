@@ -1,2 +1,5 @@
-html,body{
+body {
+	zoom: 320%;
+   width:340px;
+   margin:0 auto;
 }
