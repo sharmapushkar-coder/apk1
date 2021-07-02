@@ -24,7 +24,7 @@ function check(){
         alert(" This account is locked!!")
     }
     if(x==="Pushkar"&&y==="Pushkar@9899"||x==="Himanshu"&&y==="Himanshu@9807"){
-        var perm="allow"
+        var perm="block"
         if(perm==="allow"){
             document.getElementById("form").style.display="none"
             document.getElementById("mc").style.display="block"
