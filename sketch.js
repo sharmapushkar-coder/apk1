@@ -3,7 +3,7 @@ var database
 var x
 var check
 var y
-var maint="yes"
+var maint="no"
 function preload(){
 
 }
