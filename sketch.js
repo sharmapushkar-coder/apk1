@@ -21,16 +21,17 @@ function draw(){
 }
 function check(){
     if(perm==="block"){
-        alert(" This account is locked!!")
+        
     }
     if(x==="Pushkar"&&y==="Pushkar@9899"||x==="Himanshu"&&y==="Himanshu@9807"){
-        var perm="block"
+        var perm="allow"
         if(perm==="allow"){
             document.getElementById("form").style.display="none"
             document.getElementById("mc").style.display="block"
         }
         else{
-            alert("THIS ID MAY BE TEMPORARILY OR PERMANENTLY SUSPENDED")
+            alert(" This account is locked!! Or Suspended Please contact form owner!!")
+            //alert("THIS ID MAY BE SUSPENDED")
         }
     }
     else{
